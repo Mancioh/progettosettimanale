@@ -1,0 +1,186 @@
+/*------------Generale-----------*/
+html,
+body {
+  margin: 0px;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #22aacc;
+}
+
+/*------------header------------*/
+header {
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+header img {
+  width: 40%;
+}
+
+/*------------main------------*/
+main {
+  line-height: 2;
+  margin-bottom: 80px;
+}
+
+main {
+  padding: 40px;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+main + div {
+  font-family: "Montserrat";
+  height: 350px;
+}
+
+.bottoneRosso {
+  margin: 30px auto 0 auto;
+  background-color: #f04c2f;
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bottoneRosso a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*--redflaggg--*/
+
+section {
+  text-align: center;
+  color: white;
+  background-color: #e22d0e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section h2 {
+  font-size: 1.8em;
+  padding-bottom: 30px;
+}
+
+section h3 {
+  color: white;
+  font-style: italic;
+}
+
+blockquote {
+  padding-bottom: 30px;
+  font-style: italic;
+}
+
+/*------------aside------------*/
+aside {
+  padding-bottom: 50px;
+}
+
+aside p {
+  padding: 20px;
+}
+
+.mini {
+
+  font-size: smaller;
+  padding: 15px;
+}
+
+.boxdascontornare {
+  border: solid 1px lightgray;
+  margin: 60px 30px 60px 30px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.boxdascontornare div img {
+  width: 100%;
+}
+
+.boxdascontornare img,
+h3 {
+  color: #22aacc;
+}
+
+#tonda {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 350px;
+  border-radius: 1000px;
+}
+
+.boxdascontornare p {
+  padding: 20px;
+}
+
+/*------------Footer------------*/
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  background-color: #22aacc;
+}
+
+footer h2 {
+  font-size: 2em;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:link {
+  color: #c8e7f0;
+}
+
+footer a:visited {
+  color: #c8e7f0;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 250px;
+}
+
+.contattaci {
+  margin: 30px;
+}
+
+.informazioni {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.informazioni p {
+  margin: 10px;
+}
+
+.copyright {
+  margin: 22px;
+}
